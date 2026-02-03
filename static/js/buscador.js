@@ -12,8 +12,8 @@ document.getElementById('buscador').addEventListener('keyup', function () {
     );
 
     filtrados.forEach(item => {
-        const li = document.createElement('li');
-        li.textContent = item;
-        resultados.appendChild(li);
+        const lista = document.createElement('li');
+        lista.textContent = item;
+        resultados.appendChild(lista);
     });
 });
